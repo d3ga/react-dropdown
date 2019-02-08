@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import DropDownListWrapper from "./DropDownListWrapper";
-// import DropDownTextWrapper from "./DropDownTextWrapper";
+import DropDownTextWrapper from "./DropDownTextWrapper";
 
 // import DropDownList from "./DropDownList";
 import Data from "./Data.json";
@@ -18,6 +18,7 @@ class App extends Component {
     return (
       <div className="App">
         <DropDownListWrapper text={"Options"} data={this.state.data} />
+        <DropDownTextWrapper text={"Text"} data={this.state.data} />
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import DropDownList from "./DropDownList";
+import DropDownText from "./DropDownText";
 
 class App extends Component {
   constructor(props) {
@@ -34,7 +34,7 @@ class App extends Component {
         </div>
 
         {this.state.showDropDown && (
-          <DropDownList
+          <DropDownText
             data={this.props.data}
             toggleDropDown={this.toggleDropDown.bind(this)}
           />

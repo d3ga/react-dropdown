@@ -18,9 +18,43 @@
 }
 
 li:hover {
-  background-color: chartreuse;
+  color: #e2e2e2;
+  background-color: #727179;
 }
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.drop-down-background {
+  background-color: rgb(240, 240, 240);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.drop-down-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.drop-down-list-item {
+  padding: 1rem 2rem;
+}
+
+.close-drop-down-icon-wrapper {
+  text-align: right;
+  padding: 1rem;
+}
+
+.drop-down-header-wrapper {
+  padding: 1rem 0;
+}
+
+.drop-down-header-title {
+  float: left;
+  padding-right: 0.5rem;
+}
+
+.drop-down-text {
+  padding: 0 1.5rem 1.5rem 1.5rem;
 }
