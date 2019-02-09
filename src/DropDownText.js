@@ -1,10 +1,13 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 function DropDownText(props) {
   return (
     <div className="drop-down-background">
       <div className="close-drop-down-icon-wrapper">
-        <i class="fas fa-times cursor-pointer" onClick={props.toggleDropDown} />
+        <i
+          className="fas fa-times cursor-pointer"
+          onClick={props.toggleDropDown}
+        />
       </div>
       <div className="drop-down-text">
         Lorem ipsum dolor sit amet, mutat eleifend quo ex, cu utroque salutatus

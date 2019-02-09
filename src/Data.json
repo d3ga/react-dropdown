@@ -1,38 +1,26 @@
 [
   {
     "id": 0,
-    "title": "Option 1",
-    "selected": false,
-    "key": "location"
+    "title": "Option 1"
   },
   {
     "id": 1,
-    "title": "Option 2",
-    "selected": false,
-    "key": "location"
+    "title": "Option 2"
   },
   {
     "id": 2,
-    "title": "Option 3",
-    "selected": false,
-    "key": "location"
+    "title": "Option 3"
   },
   {
     "id": 3,
-    "title": "Option 4",
-    "selected": false,
-    "key": "location"
+    "title": "Option 4"
   },
   {
     "id": 4,
-    "title": "Option 5",
-    "selected": false,
-    "key": "location"
+    "title": "Option 5"
   },
   {
     "id": 5,
-    "title": "Option 6",
-    "selected": false,
-    "key": "location"
+    "title": "Option 6"
   }
 ]

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import DropDownList from "./DropDownList";
 
 class App extends Component {
@@ -26,9 +26,9 @@ class App extends Component {
             onClick={this.toggleDropDown.bind(this)}
           >
             {this.state.showDropDown ? (
-              <i class="fas fa-angle-down" />
+              <i className="fas fa-angle-down" />
             ) : (
-              <i class="fas fa-angle-up" />
+              <i className="fas fa-angle-up" />
             )}
           </div>
         </div>
@@ -37,6 +37,7 @@ class App extends Component {
           <DropDownList
             data={this.props.data}
             toggleDropDown={this.toggleDropDown.bind(this)}
+            selectedOption={this.props.selectedOption}
           />
         )}
       </div>
