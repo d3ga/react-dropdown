@@ -10,14 +10,12 @@ function DropDownText(props) {
         />
       </div>
       <div className="drop-down-text">
-        Lorem ipsum dolor sit amet, mutat eleifend quo ex, cu utroque salutatus
-        gubergren quo. Sanctus corrumpit dissentiet mei ea, eam ea partem
-        possit, nec mazim latine tacimates cu. Munere temporibus his et. Eum
-        dicant probatus torquatos ad, vix nemore oporteat eleifend et. Ad eam
-        facilisis scriptorem eloquentiam. Ius utroque electram hendrerit an, at
-        recteque periculis pro, eu mel nemore equidem. Ne mel probo corpora
-        electram, ut eum ornatus expetenda delicatissimi. Est at appetere
-        atomorum, vix saperet graecis an. Pro ea mucius aliquip necessitatibus.
+        I often compare open source to science. To where science took this whole
+        notion of developing ideas in the open and improving on other peoples'
+        ideas and making it into what science is today and the incredible
+        advances that we have had. And I compare that to witchcraft and alchemy,
+        where openness was something you didn't do. <br />
+        <i>Linus Torvalds</i>
       </div>
     </div>
   );

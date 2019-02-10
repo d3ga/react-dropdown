@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import DropDownListWrapper from "./DropDownListWrapper";
 import DropDownTextWrapper from "./DropDownTextWrapper";
-
-// import DropDownList from "./DropDownList";
 import Data from "./Data.json";
 
 class App extends Component {
@@ -17,7 +15,6 @@ class App extends Component {
 
   selectedOption(e, option) {
     let selectedOption = this.state.selectedOption;
-    console.log(selectedOption.length);
 
     this.setState(state => {
       if (!selectedOption.length) {
