@@ -16,8 +16,14 @@ class App extends Component {
   }
 
   selectedOption(e, option) {
+    let selectedOption = this.state.selectedOption;
+    console.log(selectedOption.length);
+
     this.setState(state => {
-      if (this.state.selectedOption.length === 0) {
+      if (!selectedOption.length) {
+        state.selectedOption.push(option);
+      } else if (selectedOption.length === 1) {
+        state.selectedOption.pop();
         state.selectedOption.push(option);
       }
       return state;
